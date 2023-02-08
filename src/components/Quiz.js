@@ -32,8 +32,6 @@ const Quiz = ({ data, questionNumber, setQuestionNumber, setTimeOut }) => {
       callback();
     }, duration);
   };
-
-
     const handleClick=(item)=>{
         setSelectedAnswer(item);
         setClassName("answer active");
